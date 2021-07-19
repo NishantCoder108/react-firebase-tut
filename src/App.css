@@ -1,5 +1,19 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #2e3569;;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .App-logo {
@@ -14,14 +28,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #ffffff;
+  min-height: 50vh;
+  /* font-size: calc(10px + 2vmin); */
+  color: #000000;
+  FONT-FAMILY: MONOSPACE;
+  text-align: center;
+  padding: 33px 0px 0px 0px;
+  box-shadow: 7px 9px 5px 2px black;
 }
 
 .App-link {
@@ -36,3 +50,37 @@
     transform: rotate(360deg);
   }
 }
+
+/* //second page  */
+
+.card {
+  display: flex;
+  justify-content: center;
+  border: 3px solid rgb(118, 119, 155);
+  border-radius: 30px;
+  width: 235px;
+  height: 390px;
+  box-shadow: 7px 9px 5px 2px rgb(0 0 0 / 50%);
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: -0.045rem;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+background-color: #6283a0;
+}
+p{
+  padding: 6px;
+}
+
+img{
+  margin: 5px 0px;
+border: 3px solid rgb(255, 255, 255);
+border-radius: 62px;
+width: 131px;
+}
+
+
